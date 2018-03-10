@@ -1,0 +1,28 @@
+/**index.wxss**/
+.doubanContainer .bannerImg image{
+  width:100%;
+  height: 100%;
+}
+.moiveList .moiveListBanner{
+  color:#fff;
+  padding:10rpx;
+  background-color: #e4393c;
+}
+.moiveList .moiveItem{
+  overflow: hidden;
+  padding: 30rpx;
+  border-bottom:1rpx dashed #000;
+}
+.moiveList .moiveItem:last-child{
+   border-bottom:1rpx dashed #fff;
+}
+.moiveList .moiveItem image{
+  width:280rpx;
+  height:280rpx;
+  margin-bottom: 30rpx; 
+}
+.moiveList .moiveItem .moiveRt text{
+  display: block;
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+}
