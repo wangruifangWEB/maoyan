@@ -12,6 +12,16 @@
   overflow: hidden;
   padding: 30rpx;
   border-bottom:1rpx dashed #000;
+  display: block;
+}
+.moiveList .moiveItem image{
+  float:left;
+  margin-right:30rpx;
+}
+.moiveList .moiveItem .moiveRt{
+  width:380rpx;
+  float:left;
+  display: inline-block;
 }
 .moiveList .moiveItem:last-child{
    border-bottom:1rpx dashed #fff;
